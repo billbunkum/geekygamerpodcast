@@ -1,0 +1,17 @@
+# COMMON IGNORES
+
+## FOLDERS
+/node_modules
+/packages
+/bin
+/out
+/target
+
+## FILES
+*.o
+*.pyc
+*.class
+*.log
+*.lock
+*.tmp
+*.swp
