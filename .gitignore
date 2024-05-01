@@ -1,6 +1,8 @@
 # COMMON IGNORES
 
 ## FOLDERS
+/static
+/dist
 /node_modules
 /packages
 /bin

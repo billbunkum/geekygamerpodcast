@@ -6,7 +6,7 @@ export default function Embed() {
 				width="560" 
 				height="315" 
 				loading="lazy"
-				src="https://www.youtube.com/embed/videoseries?si=lSlCszGJG3dPc-w2&amp;list=PLKcCKSGU8sp1FDtNcrge8BOCxVdgdGrsW" 
+				src="https://www.youtube.com/embed/videoseries?si=tR95OW0PLANq-WPn&amp;list=PLKcCKSGU8sp1FDtNcrge8BOCxVdgdGrsW"
 				title="YouTube video player" 
 				frameborder="0" 
 				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
