@@ -1,8 +1,6 @@
 # COMMON IGNORES
 
 ## FOLDERS
-/next/*.*
-/.next
 /cache
 /static
 /dist
