@@ -1,7 +1,7 @@
 # COMMON IGNORES
 
 ## FOLDERS
-/cache
+#/cache
 /static
 /dist
 /node_modules
