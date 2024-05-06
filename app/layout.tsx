@@ -1,12 +1,14 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Footer from './components/_footer';
+import Navigation from './components/_navigation';
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Geeky Gamer Podcast",
-  description: "Two gamers interviewing people about what they're geeky.",
+  description: "Two gamers interviewing people about their geekiness.",
 	creator: "Bill Bunkum",
 	authors: [
 		{name: "Ken Howl"}, 
@@ -22,7 +24,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+				<main className="font-mono flex min-h-screen flex-col items-center justify-between p-10">
+
+					{children}
+
+					<Footer />
+				</main>
+			</body>
     </html>
   );
 }
