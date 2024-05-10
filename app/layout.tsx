@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import '../public/assets/fontawesome/css/brands.min.css';
+import '../public/assets/fontawesome/css/fontawesome.min.css';
 import Footer from './components/_footer';
 import Navigation from './components/_navigation';
 
@@ -24,6 +26,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+
       <body className={inter.className}>
 				<main className="font-mono flex min-h-screen flex-col items-center justify-between p-10">
 

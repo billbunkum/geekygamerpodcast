@@ -11,32 +11,20 @@ export default function Navigation() {
 				<li><Link href="#">Support</Link></li>
 			</ul>
 			{/* SOCIALS */}
-			<ul className="flex flex-row mt-3 justify-center">
-				<li>
-					<a href="https://www.instagram.com/dreadloresystem">
-						<img src="assets/instagram.png"
-							className="w-40"
-							alt="Instagram"
-							title="IG link"
-						/>
-					</a>
-				</li>
-				<li>
-					<a href="https://www.twitter.com/dreadloresystem">
-						<img src="assets/twitter.png"
-							className="w-40"
-							alt="Twitter"
-							title="Twitter link"
-						/>
-					</a>
-				</li>
-				<li>
+			<ul className="flex flex-row mt-5 justify-center">
+				<li className="mr-3">
 					<a href="https://www.youtube.com/@dreadlore3526">
-						<img src="assets/youtube.png"
-							className="w-40"
-							alt="YouTube"
-							title="YouTube link"
-						/>
+						<i class="fa-brands fa-youtube fa-2xl"></i>
+					</a>
+				</li>
+				<li className="mr-3">
+					<a href="https://www.twitter.com/dreadloresystem">
+						<i class="fa-brands fa-x-twitter fa-2xl"></i>
+					</a>
+				</li>
+				<li className="mr-3">
+					<a href="https://discord.com/invite/kKxH2FjuHG">
+						<i class="fa-brands fa-discord fa-2xl"></i>
 					</a>
 				</li>
 			</ul>
