@@ -2,7 +2,7 @@
 
 ## FOLDERS
 #/.next
-#.next/
+.next/
 #/cache
 /static
 /dist
