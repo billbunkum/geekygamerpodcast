@@ -7,7 +7,6 @@ import Navigation from './components/_navigation';
 export default function Home() {
   return (
 		<>
-			<h1 className="text-2xl text-center font-bold md:text-5xl">Geeky Gamer Podcast</h1>
 			<div className="mt-10">
 				<Navigation />
 			</div>
