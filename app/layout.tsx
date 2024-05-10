@@ -28,11 +28,25 @@ export default function RootLayout({
     <html lang="en">
 
       <body className={inter.className}>
-				<main className="font-mono flex min-h-screen flex-col items-center justify-between p-10">
+				<main className="font-mono flex min-h-screen p-10 flex-col">
+					<div className="flex-row">
+						<a href="/">
+							<img src="/assets/ggp-logo.png"
+								className="w-32"
+								alt="GGP-Brand"
+								title="brand"
+					 		/>
+						</a>
+						<h1 className="text-2xl font-bold md:text-5xl">Geeky Gamer Podcast</h1>
 
-					{children}
+					</div>					
 
-					<Footer />
+					<div className="items-center justify-between">
+						{children}
+
+						<Footer />
+					</div>
+
 				</main>
 			</body>
     </html>
