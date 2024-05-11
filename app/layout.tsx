@@ -4,6 +4,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import '../public/assets/fontawesome/css/brands.min.css';
 import '../public/assets/fontawesome/css/fontawesome.min.css';
+import '../public/assets/fontawesome/css/solid.min.css';
 import Footer from './components/_footer';
 import Navigation from './components/_navigation';
 
