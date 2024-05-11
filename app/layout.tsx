@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from 'next/image';
 import { Inter } from "next/font/google";
 import "./globals.css";
 import '../public/assets/fontawesome/css/brands.min.css';
@@ -31,7 +32,8 @@ export default function RootLayout({
 				<main className="font-mono flex min-h-screen p-10 flex-col">
 					<div className="flex-row">
 						<a href="/">
-							<img src="/assets/ggp-logo.png"
+							<Image 
+								src="/assets/ggp-logo.png"
 								className="w-32"
 								alt="GGP-Brand"
 								title="brand"
