@@ -12,7 +12,7 @@ export default function ContactForm() {
     			Your email:
     			<input 
 						className="text-black mt-3"
-						maxLength="50"
+						maxLength={50}
 						type="email" 
 						name="email" />
   			</label>
@@ -22,7 +22,7 @@ export default function ContactForm() {
 					</div>
     			<textarea 
 						className="text-black mt-3"
-						maxLength="300"
+						maxLength={300}
 						name="message"></textarea>
   			</label>
 
