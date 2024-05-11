@@ -6,7 +6,7 @@ export default function Embed() {
 			{/*width="560"*/}
 			<div className="w-screen p-5">
 				<iframe 
-					className="w-full aspect-video"
+					className="aspect-video"
 					loading="lazy"
 					src="https://www.youtube.com/embed/videoseries?si=tR95OW0PLANq-WPn&amp;list=PLKcCKSGU8sp1FDtNcrge8BOCxVdgdGrsW"
 					title="Geeky Gamer Podcast" 

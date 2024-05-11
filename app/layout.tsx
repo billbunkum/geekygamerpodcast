@@ -35,6 +35,8 @@ export default function RootLayout({
 							<Image 
 								src="/assets/ggp-logo.png"
 								className="w-32"
+								width={50}
+								height={50}
 								alt="GGP-Brand"
 								title="brand"
 					 		/>
