@@ -5,7 +5,7 @@ export default function ContactForm() {
 		<div className="text-center">
 
 			<form
-  			action="https://formspree.io/f/xnqjayqv"
+  			action="https://formspree.io/f/xrgnvagw"
   			method="POST"
 				className="overflow-scroll"
 			>
