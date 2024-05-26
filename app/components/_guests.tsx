@@ -165,8 +165,11 @@ import React from 'react'
 		},
 	];
 
-{/*
-	for (let i = 0; i < guest_list.length; i++) {
-		<li>Here</li>
-	}
-*/}
+export default function Guests() {
+	return (
+		<>
+			
+		</>
+	)
+}
+
