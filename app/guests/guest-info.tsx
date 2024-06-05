@@ -1,9 +1,11 @@
 import React from 'react'
 
-	const guests_list = [
+function GuestInfo() {
+	const guest_info = [
 		{
 			episode: '001', 
 			guest: 'Max & JazziCabbage',
+			link: '#',
 			date: '12.14.23',
 			topic: 'How gaming affects your life',
 			social: 'https://twitter.com/JazziCabbage',
@@ -11,6 +13,7 @@ import React from 'react'
 		},
 		{ episode: '002', 
 			guest: 'Mildra & Archangel',
+			link: '#',
 			date:	'12.21.23',
 			topic: 'Dissecting how we choose games',
 			social: 'https://www.youtube.com/@MildraTheMonk671',
@@ -18,6 +21,7 @@ import React from 'react'
 		},
 		{ episode: '003',
 			guest: 'Xanatrix Zedare & SupiJones',
+			link: '#',
 			date: '12.28.23',
 			topic: 'Explaining video games, TTRPGs',
 			social: 'https://www.youtube.com/@MildraTheMonk671',
@@ -25,6 +29,7 @@ import React from 'react'
 		},
 		{ episode: '004', 
 			guest: 'Bill Allan',
+			link: '#',
 			date: '01.04.24',
 			topic: 'D&D can change lives',
 			social: 'https://twitter.com/TheBillAllan',
@@ -32,6 +37,7 @@ import React from 'react'
 		},
 		{ episode: '005', 
 			guest: 'Jeff McNeil',
+			link: '#',
 			date: '01.11.24',
 			topic: 'Rule systems, and living abroad',
 			social: 'https://twitter.com/geekygamerpod',
@@ -39,6 +45,7 @@ import React from 'react'
 		},
 		{ episode: '006', 
 			guest: 'Mike Farmer',
+			link: '#',
 			date: '01.18.24',
 			topic: 'Life in a rock band',
 			social: 'https://www.instagram.com/mikewritesandsings',
@@ -46,6 +53,7 @@ import React from 'react'
 		},
 		{ episode: '007', 
 			guest: 'Lucas Duff',
+			link: '#',
 			date: '01.25.24',
 			topic: 'Gaming with mindfulness',
 			social: 'https://www.youtube.com/@balladofthesevendice',
@@ -53,6 +61,7 @@ import React from 'react'
 		},
 		{ episode: '008',
 			guest: 'Daniel Huffaker',
+			link: '#',
 			date: '02.01.24',
 			topic: 'Running extremely long Campaigns',
 			social: 'https://twitter.com/geekygamerpod',
@@ -60,6 +69,7 @@ import React from 'react'
 		},
 		{ episode: '009',
 			guest: 'Eric Holden',
+			link: '#',
 			date: '02.08.24',
 			topic: 'How to be a Game Master',
 			social: 'https://www.youtube.com/@GoblinsCorner',
@@ -67,6 +77,7 @@ import React from 'react'
 		},
 		{ episode: '010', 
 			guest: 'Ken, Driz, and Bill',
+			link: '#',
 			date: '02.15.24',
 			topic: 'Life is hard, Discord is hard',
 			social: 'https://twitter.com/geekygamerpod',
@@ -74,6 +85,7 @@ import React from 'react'
 		},
 		{ episode: '011', 
 			guest: 'Claude Miles',
+			link: '#',
 			date: '02.22.24',
 			topic: 'Conspiracies and film-making',
 			social: 'https://www.instagram.com/lordrevcolmiles/',
@@ -81,6 +93,7 @@ import React from 'react'
 		},
 		{ episode: '012', 
 			guest: 'Shannon Lawrence',
+			link: 'https://youtu.be/O_qmRjJcu3Q',
 			date: '02.29.24',
 			topic: 'Horror and Sci-fi as genres',
 			social: 'http://thewarriormuse.blogspot.com/',
@@ -88,6 +101,7 @@ import React from 'react'
 		},
 		{ episode: '013',
 			guest: 'Juliet Rose',
+			link: 'https://youtu.be/LeBufOOA9JM',
 			date: '03.07.24',
 			topic: 'Writing stories from one\'s life',
 			social: 'https://www.authorjulietrose.com/',
@@ -95,6 +109,7 @@ import React from 'react'
 		},
 		{ episode: '014', 
 			guest: 'Ken and Bill',
+			link: 'https://youtu.be/FIb6vow42dg',
 			date: '03.14.24',
 			topic: 'Propaganda and getting Cancelled',
 			social: 'https://twitter.com/geekygamerpod',
@@ -102,6 +117,7 @@ import React from 'react'
 		},
 		{ episode: '015', 
 			guest: 'Jed Shaffer',
+			link: 'https://youtu.be/jl02XT-Nj_s',
 			date: '03.21.24',
 			topic: 'The Generations of Gaming Consoles',
 			social: 'https://lnns.co/EjwO-T5Xe6_',
@@ -109,6 +125,7 @@ import React from 'react'
 		},
 		{ episode: '016', 
 			guest: 'Tawd Dorenfeld',
+			link: 'https://youtu.be/X-7-WtAzSmY',
 			date: '03.28.24',
 			topic: 'Stop motion, A.I., and Andy Warhol',
 			social: 'https://www.instagram.com/directordorenfeld/',
@@ -116,6 +133,7 @@ import React from 'react'
 		},
 		{ episode: '017', 
 			guest: 'Ali Khamseh',
+			link: 'https://youtu.be/DZjmCSX6Fgo',
 			date: '04.04.24',
 			topic: 'Film-making in Iran',
 			social: 'https://www.youtube.com/channel/UCP37QXeEcOQ5vJpQKgnph1w',
@@ -123,6 +141,7 @@ import React from 'react'
 		},
 		{ episode: '018', 
 			guest: 'Danny Whitson',
+			link: 'https://youtu.be/70j3m-HoLtU',
 			date: '04.11.24',
 			topic: 'Comedy and Magic',
 			social: 'https://dannywhitsonmagic.com',
@@ -130,6 +149,7 @@ import React from 'react'
 		},
 		{ episode: '019', 
 			guest: 'Tyler Foley',
+			link: 'https://youtu.be/xmx-CS3aREk',
 			date: '04.18.24',
 			topic: 'Doing what you love',
 			social: 'https://twitter.com/DropTheMicSTF',
@@ -137,6 +157,7 @@ import React from 'react'
 		},
 		{ episode: '020', 
 			guest: 'Ben Rock',
+			link: 'https://youtu.be/lrnTENqkI4Y',
 			date: '04.19.24',
 			topic: 'Co-creator of The Blair Witch Project',
 			social:	'https://twitter.com/Neptunesalad',
@@ -144,6 +165,7 @@ import React from 'react'
 		},
 		{ episode: '021',
 			guest: 'Lucas Zellers',
+			link: 'https://youtu.be/9otJLN4qDLo',
 			date: '04.25.24',
 			topic: 'Creating & gaming with a goal in mind',
 			social: 'https://twitter.com/SparkOtter',
@@ -151,6 +173,7 @@ import React from 'react'
 		},
 		{ episode: '022', 
 			guest: 'Ken and Bill',
+			link: 'https://youtu.be/fzIDwsc8fTo',
 			date: '05.02.24',
 			topic: 'Fallout Spoilers, D&D sucks, ST Tangirala BAILED',
 			social: 'https://twitter.com/geekygamerpod',
@@ -158,18 +181,23 @@ import React from 'react'
 		},
 		{ episode: '023',  
 			guest: 'JV Hilliard',
+			link: 'https://youtu.be/3-cctv9JBAk',
 			date: '05.23.24',
 			topic: 'The Warminster Series and Publishing',
 			social: 'https://twitter.com/jvhilliardbooks',
 			other: 'https://jvhilliard',
 		},
+		{ episode: '024',  
+			guest: 'Constance Chamberlain',
+			link: 'https://youtu.be/ikGiB8Ib0gI',
+			date: '05.30.24',
+			topic: 'LARPing, Renfaire, D&D, and everything geeky',
+			social: '',
+			other: '',
+		},
 	];
-
-export default function Guests() {
-	return (
-		<>
-			
-		</>
-	)
+	return guest_info;
 }
+
+export default GuestInfo; 
 

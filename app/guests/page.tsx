@@ -1,5 +1,7 @@
 import GuestList from '../components/_guest-list';
+import GuestInfo from './guest-info';
 import Navigation from '../components/_navigation';
+
 
 export default function Guests() {
 	return (
@@ -10,7 +12,7 @@ export default function Guests() {
 				<Navigation />
 			</div>
 			<div className="mt-10">
-				<GuestList />
+				<GuestList guests={ GuestInfo() } />
 			</div>
 		</main>
 		</>

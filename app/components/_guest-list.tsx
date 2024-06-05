@@ -1,11 +1,33 @@
-import Guests from './guests';
+import Link from 'next/link';
 
-export default function GuestList() {
+export default function GuestList(props) {
+{/*	const guests = props.guests(); */}
+{/*	guests[0]['guest']	*/}
+{/*	console.log(props); */}
+
+	const guest_list = [];
+	for (let i = 0; i < props.guests.length; i++) { 
+		guest_list.push(<li>
+											<Link 
+												href={props.guests[i]['link']}
+												alt={props.guests[i]['guest']}
+												title={props.guests[i]['date']}
+												className="hover:underline leading-loose decoration-red-500"
+											>
+												{props.guests[i]['episode']}
+												&nbsp;
+												{props.guests[i]['guest']}
+												&nbsp;.&nbsp;
+												{props.guests[i]['date']}
+											</Link>
+										</li>)
+	}
+	
 	return (
 		<>
-			<div className="text-3xl text-center font-bold md:text-5xl">
+			<div className="ml-0 mr-0 text-sm text-left font-bold md:text-xl md:text-center">
 				<ul>
-					<Guests />	
+					{ guest_list }
 				</ul>
 		</div>
 	</>
