@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-export default function GuestList(props) {
+export default function GuestList(props: object) {
 {/*	const guests = props.guests(); */}
 {/*	guests[0]['guest']	*/}
 {/*	console.log(props); */}
