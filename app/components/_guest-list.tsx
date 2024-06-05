@@ -10,7 +10,6 @@ export default function GuestList(props: any) {
 		guest_list.push(<li>
 											<Link 
 												href={props.guests[i]['link']}
-												alt={props.guests[i]['guest']}
 												title={props.guests[i]['date']}
 												className="hover:underline leading-loose decoration-red-500"
 											>
