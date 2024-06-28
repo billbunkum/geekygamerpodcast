@@ -11,10 +11,11 @@ export default function Home() {
 				<Navigation />
 			</div>
 			<div className="mt-10">
-				<MainDescription />
-			</div>
-			<div className="mt-10">
 				<Embed />
+			</div>
+
+			<div className="mt-10 item-center">
+				<MainDescription />
 			</div>
 		</>
   );

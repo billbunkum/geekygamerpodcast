@@ -46,7 +46,7 @@ export default function RootLayout({
 
 					</div>					
 
-					<div className="items-center justify-between">
+					<div className="lg:mr-32 lg:ml-32">
 						{children}
 
 						<Footer />

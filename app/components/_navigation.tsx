@@ -13,17 +13,17 @@ export default function Navigation() {
 			{/* SOCIALS */}
 			<ul className="flex flex-row mt-5 justify-center">
 				<li className="mr-3">
-					<Link href="https://www.youtube.com/@dreadlore3526">
+					<Link href="https://www.youtube.com/@geekygamerpodcast">
 						<i className="fa-brands fa-youtube fa-2xl"></i>
 					</Link>
 				</li>
 				<li className="mr-3">
-					<Link href="https://www.twitter.com/dreadloresystem">
+					<Link href="https://www.twitter.com/geekygamerpod">
 						<i className="fa-brands fa-x-twitter fa-2xl"></i>
 					</Link>
 				</li>
 				<li className="mr-3">
-					<Link href="https://discord.com/invite/kKxH2FjuHG">
+					<Link href="https://discord.gg/jg5Gt2Eebx">
 						<i className="fa-brands fa-discord fa-2xl"></i>
 					</Link>
 				</li>
