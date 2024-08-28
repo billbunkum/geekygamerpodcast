@@ -5,10 +5,10 @@ export default function Navigation() {
 		<>
 			{/* SITE LINKS */}
 			<ul className="font-bold flex flex-row justify-center">
-				<li className="mr-3"><Link href="/">Home</Link></li>
-				<li className="mr-3"><Link href="guests/">Guests</Link></li>
-				<li className="mr-3"><Link href="contact/">Contact</Link></li>
-				<li><Link href="support/">Support</Link></li>
+				<li className="mr-3"><Link href="/">HOME</Link></li>
+				<li className="mr-3"><Link href="guests/">GUESTS</Link></li>
+				<li className="mr-3"><Link href="contact/">CONTACT</Link></li>
+				<li><Link href="support/">SUPPORT</Link></li>
 			</ul>
 			{/* SOCIALS */}
 			<ul className="flex flex-row mt-5 justify-center">

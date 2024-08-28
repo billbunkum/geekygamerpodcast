@@ -13,7 +13,7 @@ export default function Support() {
 				<ul>
 					<li>
 						<Link 
-							href="https://www.patreon.com/dreadlore">
+							href="https://www.patreon.com/geekygamerpodcast">
 								<i className="fa-brands fa-patreon"></i>
 								&nbsp;Patreon
 						</Link>
